@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@300&display=swap");
+
+.initial {
+  display: flex;
+  flex-direction: column;
+}
+.main {
+  display: flex;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  justify-content: space-between;
+  background-color: rgb(76, 165, 76);
+  align-items: center;
+  color: white;
+  height: 70px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  color: white;
+  max-width: 40%;
+}
+.list h2 a{
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.list h2 a {
+  color: white;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.first h2  a{
+  color: white;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.first h2 a:hover {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.list h2 a:hover {
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+
+.first h2 {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.hamburger {
+  display: none;
+}
+.search {
+  margin-right: 19px;
+  cursor: pointer;
+}
+
+
+@media only screen and (max-width: 912px) {
+  .first h2 {
+    font-size: 20px;
+  }
+  .list {
+    display: none;
+  }
+  .search {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+    margin-right: 12px;
+  }
+  .hamburger div {
+    color: black;
+    background-color: black;
+    height: 4px;
+    margin-top: 2px;
+    width: 30px;
+  }
+}

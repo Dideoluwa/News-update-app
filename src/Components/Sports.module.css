@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@300;400&display=swap");
+
+.card {
+    background-color: rgb(53, 58, 58);
+    border-radius: 8px;
+    flex: 1 0 35%;
+    padding: 20px;
+    max-width: 100%;
+    margin: 10px 15px;
+}
+
+.body {
+    display: flex;
+}
+
+.span {
+    color: rgb(224, 27, 79);
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.wrapper {
+    width: 80%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    margin: auto;
+    display: flex;
+}
+
+.wrapper img {
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    opacity: 0.98;
+    transition: all 0.2s ease-in-out;
+}
+
+.wrapper img:hover {
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.heading {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    margin: auto;
+    font-size: 45px;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.cardCover {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.time {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+    color: rgb(169, 174, 178);
+}
+
+.time a {
+    margin-top: 15px;
+    color: rgb(169, 174, 178);
+    text-decoration: none;
+    background-color: black;
+    border-radius: 7px;
+    padding: 8px 20px;
+    transition: all 0.2s ease-in-out;
+}
+
+.time a:hover {
+    background-color: rgb(169, 174, 178);
+    color: black;
+    transition: all 0.2s ease-in-out;
+}
+
+.content {
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    margin-top: 5px;
+}
+
+.error {
+    display: flex;
+}
+
+.error h1 {
+    margin: auto;
+}

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@300;400&display=swap");
+.body {
+  display: flex;
+  background-color: rgb(236, 236, 236);
+}
+
+.span {
+  color: rgb(76, 165, 76);
+}
+
+.error {
+  display: flex;
+}
+
+.error h1 {
+  margin: auto;
+}
+
+.heading {
+  color: black;
+  font-family: "Open Sans", sans-serif;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  margin: auto;
+  font-size: 45px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}

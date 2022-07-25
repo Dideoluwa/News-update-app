@@ -1,0 +1,67 @@
+.span2 {
+    display: fixed;
+    margin: auto;
+}
+
+.span {
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    display: flex;
+}
+
+.eye {
+    width: 20px;
+    height: 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    box-shadow: 30px 0px 0px 0px rgba(255, 255, 255, 1);
+    position: relative;
+    margin: 36px 26px;
+}
+
+.eye:after {
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    box-shadow: 30px 0px 0px 0px black;
+    border-radius: 50%;
+    left: 9px;
+    top: 8px;
+    position: absolute;
+    content: "";
+    -webkit-animation: eyeball 2s linear infinite alternate;
+    -moz-animation: eyeball 2s linear infinite alternate;
+    animation: eyeball 2s linear infinite alternate;
+}
+
+@-webkit-keyframes eyeball {
+    0% {
+        left: 9px;
+    }
+
+    100% {
+        left: 1px;
+    }
+}
+
+@-moz-keyframes eyeball {
+    0% {
+        left: 9px;
+    }
+
+    100% {
+        left: 1px;
+    }
+}
+
+@keyframes eyeball {
+    0% {
+        left: 9px;
+    }
+
+    100% {
+        left: 1px;
+    }
+}

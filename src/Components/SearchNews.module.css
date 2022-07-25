@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@300;400&display=swap");
+
+.cover {
+    width: 100vw;
+    font-family: "Open Sans", sans-serif;
+    font-family: "Roboto", sans-serif;
+    display: flex;
+    color: black;
+    flex-direction: column;
+    background-color: rgb(236, 236, 236);
+    z-index: 10000;
+}
+
+.header {
+    display: flex;
+    margin-bottom: 25px;
+    margin-top: 15px;
+}
+
+.header h1 {
+    margin: auto;
+    font-size: 35px;
+}
+
+.span {
+    color: rgb(218, 43, 43);
+}
+
+.form {
+    width: 100%;
+    display: flex;
+    margin-bottom: 30px;
+}
+
+.form form {
+    margin: auto;
+    width: 50%;
+}
+
+.input{
+    display: flex;
+    margin: auto;
+    justify-content: space-between;
+}
+
+.input input {
+    font-size: 20px;
+    padding: 15px 25px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    width: 84%;
+}
+
+.input button{
+    cursor: pointer;
+  width: 15%;  
+  border-radius: 10px;
+  border: none;
+  color: white;
+  background-color: black;
+} 
+
+.input input:focus{
+    outline: none;
+}
+
+.error {
+    display: flex;
+}
+
+.error h1 {
+    margin: auto;
+}
+
+@media only screen and (max-width: 912px){
+    .form form {
+        width: 60%;
+    }
+}
+
+@media only screen and (max-width: 540px){
+    .form form {
+        width: 97%;
+    }
+    .input input{
+        width: 97%;
+        margin-bottom: 7px;
+    }
+    .input{
+        flex-direction: column;
+    }
+    .input button{
+        width: 97%;
+        padding: 10px;
+    }
+}

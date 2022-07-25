@@ -1,0 +1,15 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+  color: rgb(254, 251, 251);
+  background-color: rgb(39, 41, 45);
+}
