@@ -44,6 +44,9 @@ function SearchNews() {
 
   let submitFormHandler = (e) => {
     e.preventDefault()
+    if(inputRef.current.value = ''){
+      return;
+    }
     fetchedNewsHandler()
     inputRef.current.value = ''
 

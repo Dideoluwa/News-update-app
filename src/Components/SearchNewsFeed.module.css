@@ -73,8 +73,8 @@
     display: flex;
     justify-content: flex-end;
     margin-bottom: 8px;
-    color: rgb(169, 174, 178);
-}
+    color: rgb(41, 41, 41);
+  }
 
 .time a {
     margin-top: 15px;
