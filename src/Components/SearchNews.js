@@ -44,9 +44,9 @@ function SearchNews() {
 
   let submitFormHandler = (e) => {
     e.preventDefault()
-    if(inputRef.current.value = ''){
-      return;
-    }
+    // if(inputRef.current.value. = ''){
+    //   return;
+    // }
     fetchedNewsHandler()
     inputRef.current.value = ''
 
@@ -60,7 +60,6 @@ function SearchNews() {
       {loading && <Loader />}
       <div>
         <div>
-          <NavBar />
           <div className={styles.cover}>
             <div className={styles.header}>
               <h1>Search<span className={styles.span}>News...</span></h1>

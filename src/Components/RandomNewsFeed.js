@@ -53,7 +53,6 @@ function RandomNewsFeed(props) {
       { loading && <Loader />}
       <div>
         <div>
-          <NavBar />
           <div className={styles.body}>
             <h1 className={styles.heading}>
               World<span className={styles.span}>News</span>

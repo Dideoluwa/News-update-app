@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import MobileMenu from "./MobileMenu";
 import styles from "./NavBar.module.css";
-import { BrowserRouter as Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function NavBar() {
   let [openNav, setOpenNav] = useState(false);

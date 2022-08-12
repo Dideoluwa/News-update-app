@@ -49,7 +49,6 @@ function Nigeria() {
     <>
       {loading && <Loader />}
       <div>
-        <NavBar />
         <div className={styles.body}>
           <h1 className={styles.heading}>
             Nige<span className={styles.span}>ria</span>News

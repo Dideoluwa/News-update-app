@@ -53,7 +53,6 @@ function Sports() {
       {loading && <Loader />}
       <div>
         <div>
-          <NavBar />
           <div className={styles.body}>
             <h1 className={styles.heading}>
               Sports<span className={styles.span}>News</span>

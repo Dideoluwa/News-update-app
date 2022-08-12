@@ -53,7 +53,6 @@ function WorldEconomy() {
       {loading && <Loader />}
       <div>
         <div>
-          <NavBar />
           <div className={styles.body}>
             <h1 className={styles.heading}>
               <span className={styles.span}>World</span>Economy

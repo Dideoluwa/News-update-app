@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "./MobileMenu.module.css";
-import { BrowserRouter as Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function MobileMenu(props) {
   return (
